@@ -13,9 +13,14 @@ fn main() {
     // let x = x;
     // println!("{}", x);
 
-    Print(1)
+    // Print(1)
+    Sum(1, 2);
 }
 
-fn Print(x: i32){
-    println!("x {}", x);
+// fn Print(x: i32){
+//     println!("x {}", x);
+// }
+
+fn Sum(x: i32, y: i32) {
+    println!("x + y = {}", x+y);
 }
